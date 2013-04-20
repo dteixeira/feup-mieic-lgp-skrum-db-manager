@@ -4,7 +4,7 @@
     [PhotoURL]     NVARCHAR(256) NULL,
     [Email]    NVARCHAR(128) NOT NULL,
     [Admin]    BIT         NOT NULL,
-    [JobDescription]      TEXT  NULL,
+    [JobDescription]      NTEXT  NULL,
     PRIMARY KEY CLUSTERED ([PersonID] ASC)
 );
 
