@@ -11,8 +11,8 @@ Post-Deployment Script Template
 */
 
 /* Default admin */
-INSERT INTO [dbo].[Person] ([Name], [PhotoURL], [Email], [Admin], [JobDescription])
-	VALUES ('Default Admin', null, 'admin@default.com', 1, null);
+INSERT INTO [dbo].[Person] ([Name], [PhotoURL], [Email], [Admin], [JobDescription], [Password])
+	VALUES ('Default Admin', null, 'admin@default.com', 1, null, '123456');
 
 /* StoryState enumaration values */
 INSERT INTO [dbo].[StoryState] ([State]) VALUES ('IN PROGRESS');
@@ -26,6 +26,7 @@ INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('COULD');
 INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('WONT');
 
 /* RoleDescription enumeration values */
+INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('PROJECT MANAGER');
 INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('SCRUM MASTER');
 INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('PRODUCT OWNER');
 INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('TEAM MEMBER');
