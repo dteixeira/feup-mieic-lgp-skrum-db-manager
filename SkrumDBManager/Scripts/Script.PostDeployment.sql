@@ -15,7 +15,7 @@ INSERT INTO [dbo].[Person] ([Name], [PhotoURL], [Email], [Admin], [JobDescriptio
 	VALUES ('Default Admin', null, 'admin@default.com', 1, null, '123456');
 
 /* StoryState enumaration values */
-INSERT INTO [dbo].[StoryState] ([State]) VALUES ('IN PROGRESS');
+INSERT INTO [dbo].[StoryState] ([State]) VALUES ('IN_PROGRESS');
 INSERT INTO [dbo].[StoryState] ([State]) VALUES ('COMPLETED');
 INSERT INTO [dbo].[StoryState] ([State]) VALUES ('ABANDONED');
 
@@ -26,7 +26,7 @@ INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('COULD');
 INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('WONT');
 
 /* RoleDescription enumeration values */
-INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('PROJECT MANAGER');
-INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('SCRUM MASTER');
-INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('PRODUCT OWNER');
-INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('TEAM MEMBER');
+INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('PROJECT_MANAGER');
+INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('SCRUM_MASTER');
+INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('PRODUCT_OWNER');
+INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('TEAM_MEMBER');
