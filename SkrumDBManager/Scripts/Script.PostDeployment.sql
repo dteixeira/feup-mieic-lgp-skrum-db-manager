@@ -15,18 +15,18 @@ INSERT INTO [dbo].[Person] ([Name], [PhotoURL], [Email], [Admin], [JobDescriptio
 	VALUES ('Default Admin', null, 'admin@default.com', 1, null, '123456');
 
 /* StoryState enumaration values */
-INSERT INTO [dbo].[StoryState] ([State]) VALUES ('IN_PROGRESS');
-INSERT INTO [dbo].[StoryState] ([State]) VALUES ('COMPLETED');
-INSERT INTO [dbo].[StoryState] ([State]) VALUES ('ABANDONED');
+INSERT INTO [dbo].[StoryState] ([State]) VALUES ('InProgress');
+INSERT INTO [dbo].[StoryState] ([State]) VALUES ('Completed');
+INSERT INTO [dbo].[StoryState] ([State]) VALUES ('Abandoned');
 
 /* StoryPriority enumaration values */
-INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('MUST');
-INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('SHOULD');
-INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('COULD');
-INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('WONT');
+INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('Must');
+INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('Should');
+INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('Could');
+INSERT INTO [dbo].[StoryPriority] ([Priority]) VALUES ('Wont');
 
 /* RoleDescription enumeration values */
-INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('PROJECT_MANAGER');
-INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('SCRUM_MASTER');
-INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('PRODUCT_OWNER');
-INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('TEAM_MEMBER');
+INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('ProjectManager');
+INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('ScrumMaster');
+INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('ProductOwner');
+INSERT INTO [dbo].[RoleDescription] ([Description]) VALUES ('TeamMember');
