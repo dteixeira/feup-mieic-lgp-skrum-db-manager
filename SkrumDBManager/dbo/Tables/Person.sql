@@ -5,7 +5,7 @@
     [Email]    NVARCHAR(128) NOT NULL,
     [Admin]    BIT         NOT NULL,
     [JobDescription]      NTEXT  NULL,
-    [Password] VARCHAR(512) NULL, 
+    [Password] VARCHAR(128) NULL, 
     PRIMARY KEY CLUSTERED ([PersonID] ASC)
 );
 
